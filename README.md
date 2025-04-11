@@ -1,0 +1,2 @@
+# Noteline
+CLI Notes App
