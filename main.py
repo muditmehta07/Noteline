@@ -49,7 +49,7 @@ while True:
     data = load_data()
     keys = list(data.keys())
 
-    print(Fore.CYAN + Style.BRIGHT + "\n=========== [[ NOTE MANAGER ]] ===========\n")
+    print(Fore.CYAN + Style.BRIGHT + "\n=========== [[ NOTELINE ]] ===========\n")
     print(Fore.YELLOW + "0. New Note")
     if keys:
         print(Fore.GREEN + "\n---------- Your Notes ----------")
