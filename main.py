@@ -11,7 +11,6 @@ init(autoreset=True)
 keyboard = Controller()
 DATA_FILE = os.path.join(os.getcwd(), "data.json")
 
-# Ensure the data file exists
 if not os.path.exists(DATA_FILE):
     with open(DATA_FILE, "w") as f:
         json.dump({}, f)
